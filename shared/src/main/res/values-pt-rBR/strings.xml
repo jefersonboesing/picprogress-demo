@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="share_image_dialog_title">Veja a transformação com PicProgress</string>
+    <string name="share_image_intent_message">Cada foto conta uma história de mudança e crescimento. Aqui está a minha com PicProgress! #PicProgress</string>
+</resources>

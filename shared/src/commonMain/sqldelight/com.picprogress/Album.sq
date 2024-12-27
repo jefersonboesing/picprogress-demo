@@ -1,0 +1,30 @@
+import com.picprogress.model.album.Frequency;
+
+CREATE TABLE albumTable (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    uuid TEXT NOT NULL,
+    title TEXT NOT NULL,
+    notes TEXT NOT NULL,
+    frequency TEXT AS Frequency NOT NULL ,
+    themeId INTEGER NOT NULL,
+    createdAt INTEGER NOT NULL
+);
+
+insert:
+INSERT INTO albumTable(uuid, title, notes, frequency, themeId, createdAt)
+VALUES(?, ?, ?, ?, ?, ?);
+
+update:
+UPDATE albumTable SET title = ?, notes = ?, themeId = ? WHERE id = ?;
+
+delete:
+DELETE FROM albumTable WHERE id = ?;
+
+deleteAll:
+DELETE FROM albumTable;
+
+getAll:
+SELECT albumTable.* FROM albumTable;
+
+getById:
+SELECT albumTable.* FROM albumTable WHERE id = ?;

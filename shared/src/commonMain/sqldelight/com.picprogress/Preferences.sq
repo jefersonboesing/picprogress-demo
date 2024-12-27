@@ -1,0 +1,17 @@
+CREATE TABLE preferencesTable (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    json TEXT NOT NULL
+);
+
+insert:
+INSERT INTO preferencesTable(json)
+VALUES(?);
+
+update:
+UPDATE preferencesTable SET json = ? WHERE id = ?;
+
+delete:
+DELETE FROM preferencesTable;
+
+get:
+SELECT preferencesTable.* FROM preferencesTable LIMIT 1;

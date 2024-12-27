@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"-->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="390dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/beforeImageCard"
+            android:layout_width="0dp"
+            android:layout_height="230dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="174dp"
+            app:layout_constraintEnd_toStartOf="@id/afterImageCard"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/afterImageCard"
+            android:layout_width="0dp"
+            android:layout_height="230dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="174dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/beforeImageCard"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/app_logo_light"
+            app:layout_constraintBottom_toBottomOf="@id/beforeImageCard"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/beforeImageCard"
+            />
+
+        <TextView
+            android:id="@+id/beforeImageLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/share_image_before_label"
+            android:textAlignment="center"
+            android:textAppearance="@style/TitleMedium"
+            android:textColor="@color/primaryMedium"
+            app:layout_constraintEnd_toEndOf="@id/beforeImageCard"
+            app:layout_constraintStart_toStartOf="@id/beforeImageCard"
+            app:layout_constraintTop_toBottomOf="@id/beforeImageCard" />
+
+        <TextView
+            android:id="@+id/afterImageLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/share_image_after_label"
+            android:textAlignment="center"
+            android:textAppearance="@style/TitleMedium"
+            android:textColor="@color/primaryMedium"
+            app:layout_constraintEnd_toEndOf="@id/afterImageCard"
+            app:layout_constraintStart_toStartOf="@id/afterImageCard"
+            app:layout_constraintTop_toBottomOf="@id/afterImageCard" />
+
+        <TextView
+            android:id="@+id/beforeImageDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/BodySmall"
+            android:textColor="@color/primaryMedium"
+            app:layout_constraintEnd_toEndOf="@id/beforeImageCard"
+            app:layout_constraintStart_toStartOf="@id/beforeImageCard"
+            app:layout_constraintTop_toBottomOf="@id/beforeImageLabel" />
+
+        <TextView
+            android:id="@+id/afterImageDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/BodySmall"
+            android:textColor="@color/primaryMedium"
+            app:layout_constraintEnd_toEndOf="@id/afterImageCard"
+            app:layout_constraintStart_toStartOf="@id/afterImageCard"
+            app:layout_constraintTop_toBottomOf="@id/afterImageLabel" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/lavender"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/beforeImageDate"
+            app:layout_constraintVertical_bias="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dmsans_medium"
+                android:paddingHorizontal="12dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="10dp"
+                android:textSize="10sp"
+                android:text="@string/share_image_handle"
+                android:textColor="@color/primaryMedium" />
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PicProgress-Demo</string>
+
+    <string name="delete">Excluir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="create">Criar</string>
+    <string name="save">Salvar</string>
+
+    <string name="frequency_daily">Todo dia</string>
+    <string name="frequency_weekly">Toda semana</string>
+    <string name="frequency_monthly">Todo mês</string>
+    <string name="photos_size_label_zero">0 fotos</string>
+    <plurals name="photos_size_label">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">%d fotos</item>
+        <item quantity="many">%d fotos</item>
+    </plurals>
+
+    <!-- AlbumCard -->
+    <string name="album_card_week_label">Semana %d</string>
+    <string name="album_card_updated_label">Atualizado</string>
+
+    <string name="configure_album_screen_title_new">Novo álbum</string>
+    <string name="configure_album_screen_title_edit">Editar álbum</string>
+
+    <string name="configure_album_name_label">Nome do álbum</string>
+    <string name="configure_album_name_placeholder">Digite aqui o nome do álbum</string>
+    <string name="configure_album_name_error">O nome do álbum é obrigatório</string>
+    <string name="configure_album_notes_label">Anotações</string>
+    <string name="configure_album_notes_placeholder">Escreva suas anotações</string>
+    <string name="configure_album_settings_title">Configurações</string>
+    <string name="configure_album_photo_frequency_label">Frequência das fotos</string>
+    <string name="configure_album_background_color_label">Cor do álbum</string>
+
+    <string name="configure_album_notifications_title">Notificações</string>
+    <string name="configure_album_allow_notifications_label">Permitir notificações</string>
+
+    <string name="configure_album_background_screen_title">Cor do álbum</string>
+    <string name="configure_album_background_screen_apply_button">Aplicar</string>
+    <string name="configure_album_frequency_screen_title">Frequência das fotos</string>
+    <string name="configure_album_frequency_screen_apply_button">Aplicar</string>
+
+
+    <!-- Toast Messages -->
+    <string name="toast_save_in_gallery_multiple_success_title">Fotos salvas com sucesso</string>
+    <string name="toast_save_in_gallery_multiple_success_description">Suas fotos estão disponíveis na galeria.</string>
+
+    <string name="toast_save_in_gallery_multiple_failure_title">Não foi possível salvar as fotos</string>
+    <string name="toast_save_in_gallery_multiple_failure_description">Por favor, tente novamente.</string>
+
+    <string name="toast_save_in_gallery_single_success_title">Foto salva com sucesso</string>
+    <string name="toast_save_in_gallery_single_success_description">A foto está disponível na galeria.</string>
+
+    <string name="toast_save_in_gallery_single_failure_title">Não foi possível salvar a foto</string>
+    <string name="toast_save_in_gallery_single_failure_description">Por favor, tente novamente.</string>
+
+    <string name="toast_save_comparison_success_title">Imagem salva com sucesso</string>
+    <string name="toast_save_comparison_success_description">Seu progresso está disponível na galeria.</string>
+
+    <string name="toast_save_comparison_failure_title">Não foi possível salvar a imagem</string>
+    <string name="toast_save_comparison_failure_description">Por favor, tente novamente.</string>
+
+    <string name="toast_delete_album_failure_title">Não foi possível excluir o álbum</string>
+    <string name="toast_delete_album_failure_description">Por favor, tente novamente.</string>
+
+    <string name="toast_delete_photo_failure_title">Não foi possível excluir a foto</string>
+    <string name="toast_delete_photo_failure_description">Por favor, tente novamente.</string>
+
+    <string name="toast_delete_photos_failure_title">Não foi possível excluir as fotos</string>
+    <string name="toast_delete_photos_failure_description">Por favor, tente novamente.</string>
+
+    <string name="toast_saving_image_permission_failure_title">Não foi possível salvar</string>
+    <string name="toast_saving_image_permission_failure_description">A permissão é necessária para salvar imagens</string>
+
+    <string name="toast_add_photo_failure_title">Não foi possível salvar a foto</string>
+    <string name="toast_add_photo_failure_description">Por favor, tente novamente.</string>
+
+    <string name="album_card_title_placeholder">Nome do álbum</string>
+
+    <plurals name="album_card_days_remaining">
+        <item quantity="one">%d dia restante</item>
+        <item quantity="other">%d dias restantes</item>
+        <item quantity="many">%d dias restantes</item>
+    </plurals>
+    <plurals name="album_card_hours_remaining">
+        <item quantity="one">%d hora restante</item>
+        <item quantity="other">%d horas restantes</item>
+        <item quantity="many">%d horas restantes</item>
+    </plurals>
+    <plurals name="album_card_minutes_remaining">
+        <item quantity="one">%d minuto restante</item>
+        <item quantity="other">%d minutos restantes</item>
+        <item quantity="many">%d minutos restantes</item>
+    </plurals>
+
+    <string name="photo_day_label">Dia %d</string>
+    <string name="photo_week_label">Semana %d</string>
+    <string name="photo_month_label">Mês %d</string>
+
+    <!-- Album screen -->
+    <string name="album_screen_empty_title">Suas fotos aparecerão aqui.</string>
+    <string name="album_screen_empty_description">Capture novas fotos ou importe da sua galeria para acompanhar o progresso.</string>
+
+    <string name="album_screen_photo_delete_confirmation_title">Tem certeza de que deseja excluir %s foto(s)?</string>
+    <string name="album_screen_photo_delete_confirmation_description">Após a exclusão, não será mais possível acessá-las.</string>
+
+    <string name="album_screen_album_delete_confirmation_title">Tem certeza de que deseja excluir este álbum?</string>
+    <string name="album_screen_album_delete_confirmation_description">Após a exclusão, não será mais possível acessá-lo.</string>
+
+    <string name="album_screen_add_photo_options_title">Adicionar foto</string>
+    <string name="album_screen_add_photo_options_take_picture">Tirar foto</string>
+    <string name="album_screen_add_photo_options_import">Importar da galeria</string>
+
+    <string name="album_screen_more_options_title">Mais opções</string>
+    <string name="album_screen_more_options_select">Selecionar fotos</string>
+    <string name="album_screen_more_options_edit">Editar álbum</string>
+    <string name="album_screen_more_options_delete">Excluir</string>
+
+    <string name="album_screen_add_button">Adicionar foto</string>
+
+    <plurals name="album_screen_photos_selected">
+        <item quantity="one">%d foto selecionada</item>
+        <item quantity="other">%d fotos selecionadas</item>
+        <item quantity="many">%d fotos selecionadas</item>
+    </plurals>
+
+    <plurals name="album_screen_photos_count">
+        <item quantity="one">%d foto</item>
+        <item quantity="other">%d fotos</item>
+        <item quantity="many">%d fotos</item>
+    </plurals>
+
+    <!-- Notifications -->
+
+    <string name="notification_day_end_title">Ainda não atualizou seu álbum \'%s\'?</string>
+    <string name="notification_day_end_description">Ainda há tempo para capturar o progresso de hoje.</string>
+
+    <string name="notification_day_start_title">Atualize o álbum \'%s\'</string>
+    <string name="notification_day_start_description">Bom dia! É hora de capturar o progresso de hoje no seu álbum \'%s\'.</string>
+
+    <string name="notification_month_end_title">Ainda não atualizou seu álbum \'%s\'?</string>
+    <string name="notification_month_end_description">O mês está terminando. Não deixe de atualizar seu álbum \'%s\'.</string>
+
+    <string name="notification_month_start_title">Atualize o álbum \'%s\'</string>
+    <string name="notification_month_start_description">Um novo mês, uma nova oportunidade de acompanhar seu progresso. Lembre-se de atualizar seu álbum \'%s\'.</string>
+
+    <string name="notification_week_end_title">Ainda não atualizou seu álbum \'%s\'?</string>
+    <string name="notification_week_end_description">A semana está quase acabando. Não se esqueça de atualizar seu álbum \'%s\'.</string>
+
+    <string name="notification_week_start_title">Atualize o álbum \'%s\'</string>
+    <string name="notification_week_start_description">Uma nova semana começou! Que tal começar atualizando seu álbum \'%s\'?</string>
+
+    <!-- Compare screen -->
+    <string name="compare_screen_hold_to_compare">Segure para comparar antes e depois</string>
+    <string name="compare_screen_save_to_gallery">Salvar na galeria</string>
+    <string name="compare_screen_no_photos_selected">Nenhuma foto selecionada</string>
+    <string name="compare_screen_before">Antes</string>
+    <string name="compare_screen_after">Depois</string>
+    <string name="compare_screen_title">Comparar</string>
+
+    <!-- Home screen -->
+    <string name="home_screen_title">Álbuns</string>
+    <string name="home_screen_empty_title">Crie seu primeiro álbum.</string>
+    <string name="home_screen_empty_title_daily">Nenhum álbum diário.</string>
+    <string name="home_screen_empty_title_weekly">Nenhum álbum semanal.</string>
+    <string name="home_screen_empty_title_monthly">Nenhum álbum mensal.</string>
+    <string name="home_screen_empty_description">Comece a acompanhar seu progresso criando seu primeiro álbum de fotos.</string>
+    <string name="home_screen_empty_description_daily">Quando você criar álbuns diários, eles aparecerão aqui.</string>
+    <string name="home_screen_empty_description_weekly">Quando você criar álbuns semanais, eles aparecerão aqui.</string>
+    <string name="home_screen_empty_description_monthly">Quando você criar álbuns mensais, eles aparecerão aqui.</string>
+
+    <string name="home_screen_filter_all">Todos</string>
+    <string name="home_screen_filter_daily">Diário</string>
+    <string name="home_screen_filter_weekly">Semanal</string>
+    <string name="home_screen_filter_monthly">Mensal</string>
+    <string name="home_screen_sort_date">Data de início</string>
+    <string name="home_screen_sort_title">Título</string>
+
+    <!-- Onboarding Screen -->
+
+    <string name="onboarding_page_first_title">Comece sua jornada com PicProgress</string>
+    <string name="onboarding_page_first_description">Crie álbuns de fotos para acompanhar a transformação do que é importante para você.</string>
+    <string name="onboarding_page_second_title">Mantenha o ritmo com atualizações frequentes</string>
+    <string name="onboarding_page_second_description">Com lembretes diários, semanais ou mensais, você será lembrado de registrar seus momentos e manter seu progresso em dia.</string>
+    <string name="onboarding_page_third_title">Compare e compartilhe suas fotos lado a lado</string>
+    <string name="onboarding_page_third_description">Com a ferramenta de comparação \'Antes e Depois\', você terá uma visão clara de sua evolução.</string>
+
+    <!-- Photo screen -->
+
+    <string name="photo_screen_title">Foto</string>
+    <string name="photo_screen_more_options_title">Mais opções</string>
+    <string name="photo_screen_more_options_save_photo">Salvar foto</string>
+    <string name="photo_screen_more_options_edit_date">Editar data</string>
+    <string name="photo_screen_more_options_delete">Excluir</string>
+    <string name="photo_screen_compare_button">Comparar</string>
+    <string name="photo_screen_delete_confirmation_title">Tem certeza de que deseja excluir esta foto?</string>
+    <string name="photo_screen_delete_confirmation_message">Após a exclusão, não será mais possível acessá-la.</string>
+
+    <!-- Photo config sheet -->
+    <string name="photo_config_sheet_title">Editar data</string>
+    <string name="photo_config_sheet_original">Original</string>
+    <string name="photo_config_sheet_adjusted">Ajustado</string>
+    <string name="photo_config_sheet_save_button">Salvar</string>
+
+    <!-- Photo selection sheet -->
+    <string name="photo_config_selection_title">Selecionar fotos</string>
+    <string name="photo_config_selection_empty_title">Nenhuma foto disponível.</string>
+    <string name="photo_config_selection_empty_message">Capture ou importe suas fotos para poder comparar lado a lado.</string>
+    <string name="photo_config_selection_apply_button">Aplicar</string>
+    <plurals name="photo_config_selection_required_label">
+        <item quantity="one">Selecione %d foto para comparar</item>
+        <item quantity="other">Selecione %d fotos para comparar</item>
+        <item quantity="many">Selecione %d fotos para comparar</item>
+    </plurals>
+
+    <!-- Tela de reprodução do álbum -->
+    <string name="album_play_title">Progresso do álbum</string>
+
+    <!-- Tela de visualização -->
+    <string name="preview_screen_add_button">Adicionar ao álbum</string>
+
+    <!-- Share image -->
+    <string name="share_image_before_label">Antes</string>
+    <string name="share_image_after_label">Depois</string>
+    <string name="share_image_handle">\@picprogress.app</string>
+
+    <string name="share_image_dialog_title">Veja a transformação com PicProgress</string>
+    <string name="share_image_intent_message">Cada foto conta uma história de mudança e crescimento. Aqui está a minha com PicProgress! #PicProgress</string>
+</resources>

@@ -1,0 +1,39 @@
+
+CREATE TABLE photoTable (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    uuid TEXT NOT NULL,
+    path TEXT NOT NULL,
+    createdAt INTEGER NOT NULL,
+    albumId INTEGER NOT NULL
+);
+
+insert:
+INSERT INTO photoTable(uuid, path, createdAt, albumId)
+VALUES(?, ?, ?, ?);
+
+update:
+UPDATE photoTable SET createdAt = ? WHERE id = ?;
+
+delete:
+DELETE FROM photoTable WHERE id IN ?;
+
+deleteAll:
+DELETE FROM photoTable;
+
+getAll:
+SELECT photoTable.* FROM photoTable WHERE albumId = ? ORDER BY createdAt DESC;
+
+getFirst:
+SELECT photoTable.* FROM photoTable WHERE albumId = ? ORDER BY createdAt ASC LIMIT 1;
+
+getLast:
+SELECT photoTable.* FROM photoTable WHERE albumId = ? ORDER BY createdAt DESC LIMIT 1;
+
+getById:
+SELECT photoTable.* FROM photoTable WHERE id = ? ORDER BY createdAt DESC;
+
+getByTimeFrame:
+SELECT photoTable.* FROM photoTable WHERE albumId = :albumId AND createdAt BETWEEN :startDate AND :endDate;
+
+getCountByAlbum:
+SELECT COUNT(*) FROM photoTable WHERE albumId = :albumId;

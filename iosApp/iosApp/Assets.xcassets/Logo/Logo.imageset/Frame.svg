@@ -1,0 +1,24 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame" clip-path="url(#clip0_3701_2269)">
+<g id="Clip path group">
+<mask id="mask0_3701_2269" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="80" height="80">
+<g id="clip0_234_869">
+<path id="Vector" d="M80 0H0V80H80V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_3701_2269)">
+<g id="Group">
+<path id="Vector_2" d="M80 20C80 31.0457 71.0456 40 60 40C48.9544 40 40 31.0457 40 20V0H80V20Z" fill="#95E2C7"/>
+</g>
+</g>
+</g>
+<path id="Vector_3" d="M0 0H20C31.0457 0 40 8.95432 40 20V40H20H0V0Z" fill="#E2A0D7"/>
+<path id="Vector_4" d="M60 80C48.9544 80 40 71.0456 40 60V40H60H80V80H60Z" fill="#4978E1"/>
+<path id="Vector_5" d="M0 60C0 48.9544 8.95432 40 20 40C31.0457 40 40 48.9544 40 60V80H0V60Z" fill="#EDF1F4"/>
+</g>
+<defs>
+<clipPath id="clip0_3701_2269">
+<rect width="80" height="80" fill="white"/>
+</clipPath>
+</defs>
+</svg>
